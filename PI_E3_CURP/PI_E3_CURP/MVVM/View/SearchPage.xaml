@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PI_E3_CURP.MVVM.View.SearchPage"
+             Title="SearchPage">
+
+    <Grid RowDefinitions=".2*,.1*,.8*">
+
+
+        <Border Grid.Row="0"
+    BackgroundColor="White"
+    StrokeShape="RoundRectangle 25"      
+    Stroke="LightGray"             
+    Margin="1"
+    VerticalOptions="CenterAndExpand"
+    HorizontalOptions="FillAndExpand">
+            <Border.Shadow>
+                <Shadow Brush="Gray" Offset="5,5" Opacity="0.8" />
+            </Border.Shadow>
+
+            <VerticalStackLayout>
+                <Label Text="{Binding ItemCURP.Id}" TextColor="Green" HorizontalOptions="Center" VerticalOptions="End" FontAttributes="Bold" FontSize="12"/>
+                <Label HorizontalOptions="Center" VerticalOptions="End" FontAttributes="None" FontSize="12">
+                    <Label.Text>
+                        <MultiBinding StringFormat="{} Nombre: {0}">
+                            <Binding Path="ItemCURP.nombres" />
+                        </MultiBinding>
+                    </Label.Text>
+                </Label>
+                <Label HorizontalOptions="Center" VerticalOptions="End" FontAttributes="None" FontSize="12">
+                    <Label.Text>
+                        <MultiBinding StringFormat="{} Apellido Paterno: {0}">
+                            <Binding Path="ItemCURP.app" />
+                        </MultiBinding>
+                    </Label.Text>
+                </Label>
+                <Label HorizontalOptions="Center" VerticalOptions="End" FontAttributes="None" FontSize="12">
+                    <Label.Text>
+                        <MultiBinding StringFormat="{} Apellido Materno: {0}">
+                            <Binding Path="ItemCURP.apm" />
+                        </MultiBinding>
+                    </Label.Text>
+                </Label>
+                <Label HorizontalOptions="Center" VerticalOptions="End" FontAttributes="None" FontSize="12">
+                    <Label.Text>
+                        <MultiBinding StringFormat="{} CURP: {0}">
+                            <Binding Path="ItemCURP.curp" />
+                        </MultiBinding>
+                    </Label.Text>
+                </Label>
+
+            </VerticalStackLayout>
+        </Border>
+        <Grid Grid.Row="1"  ColumnDefinitions=".25*,.25*,.25*,.25*" Margin="10,52,10,5">
+            <VerticalStackLayout Spacing="5" Grid.Column="0" HorizontalOptions="Center">
+                <ImageButton Source="agregar.png" HeightRequest="25" Command="{Binding addCommand}"/>
+                <Label Text="Agregar" HorizontalOptions="Center" FontSize="10"/>
+            </VerticalStackLayout>
+            <!--<Line X1="0" X2="0" Y1="0" Y2="30" Stroke="Black" VerticalOptions="Center" />-->
+            <VerticalStackLayout Spacing="5" Grid.Column="1" HorizontalOptions="Center">
+                <ImageButton Source="editar.png" HeightRequest="25" Command="{Binding updCommand}"/>
+                <Label Text="Editar" HorizontalOptions="Center" FontSize="10"/>
+            </VerticalStackLayout>
+            <!--<Line X1="0" X2="0" Y1="0" Y2="30" Stroke="Black" VerticalOptions="Center"/>-->
+            <VerticalStackLayout Spacing="5" Grid.Column="2" HorizontalOptions="Center">
+                <ImageButton Source="borrar.png" HeightRequest="25" Command="{Binding deleteCommand }"/>
+                <Label Text="Borrar"  HorizontalOptions="Center" FontSize="10"/>
+            </VerticalStackLayout>
+            <VerticalStackLayout Spacing="5" Grid.Column="3" HorizontalOptions="Center">
+                <ImageButton Source="borrar.png" HeightRequest="25" Command="{Binding refreshCommand }"/>
+                <Label Text="Refrescar"  HorizontalOptions="Center" FontSize="10"/>
+            </VerticalStackLayout>
+        </Grid>
+        <Border Grid.Row="2"
+             BackgroundColor="LightGray"
+             StrokeShape="RoundRectangle 25"      
+             Stroke="LightGray"             
+             Margin="10,50,10,20"
+             VerticalOptions="CenterAndExpand"
+             HorizontalOptions="FillAndExpand">
+            <Border.Shadow>
+                <Shadow Brush="Gray" Offset="10,10" Opacity="0.8" />
+            </Border.Shadow>
+            <ListView ItemsSource="{Binding LstCURP}" SelectedItem="{Binding ItemCURP}" Margin="15,25,15,0" SelectionMode="Single">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                            <VerticalStackLayout Spacing="10">
+                                <Label TextColor="{StaticResource HBBlack}" HorizontalOptions="Center" VerticalOptions="End" FontAttributes="None" FontSize="12">
+                                    <Label.Text>
+                                        <MultiBinding StringFormat="{} {0} {1} {2}   {3}">
+                                            <Binding Path="nombres" />
+                                            <Binding Path="app" />
+                                            <Binding Path="apm" />
+                                            <Binding Path="curp" />
+                                        </MultiBinding>
+                                    </Label.Text>
+                                </Label>
+                                <!--<Label Text="{Binding curp}" TextColor="{StaticResource HBBlack}" HorizontalOptions="End" VerticalOptions="Center" FontAttributes="Bold" FontSize="12"/>-->
+                            </VerticalStackLayout>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+        </Border>
+        <Border IsVisible="{Binding isVisible}" Grid.Row="0"  Grid.RowSpan="3"
+              BackgroundColor="Violet"
+              StrokeShape="RoundRectangle 10"      
+              Stroke="LightGray"             
+              Margin="5,5,5,5"
+              VerticalOptions="FillAndExpand"
+              HorizontalOptions="FillAndExpand">
+            <Border.Shadow>
+                <Shadow Brush="Gray" Offset="10,10" Opacity="0.8" />
+            </Border.Shadow>
+            <VerticalStackLayout>
+                <Button Text="X" FontAttributes="Bold" FontSize="15" Command="{Binding closeCommand}" HorizontalOptions="End"/>
+
+                <VerticalStackLayout Spacing="5" Margin="15,0,15,0">
+                    <Label Text="Nombre" FontAttributes="Bold"/>
+                    <Entry Text="{Binding ItemCURP.nombres}" IsEnabled="True"/>
+                </VerticalStackLayout>
+                <VerticalStackLayout Spacing="5" Margin="15,0,15,0">
+                    <Label Text="Apellido Paterno" FontAttributes="Bold"/>
+                    <Entry Text="{Binding ItemCURP.app}" IsEnabled="True"/>
+                </VerticalStackLayout>
+                <VerticalStackLayout Spacing="5" Margin="15,0,15,0">
+                    <Label Text="Apellido Materno" FontAttributes="Bold"/>
+                    <Entry Text="{Binding ItemCURP.apm}" IsEnabled="True"/>
+                </VerticalStackLayout>
+                <VerticalStackLayout Spacing="5" Margin="15,0,15,0">
+                    <Label Text="CURP" FontAttributes="Bold"/>
+                    <Entry Text="{Binding ItemCURP.curp}" IsEnabled="True"/>
+                </VerticalStackLayout>
+
+                <HorizontalStackLayout Spacing="20" VerticalOptions="Center" HorizontalOptions="Center">
+                    <Button Text="Cancelar" BackgroundColor="LightGray" Command="{Binding closeCommand}" TextColor="Black" WidthRequest="150"/>
+                    <Button Text="Guardar" BackgroundColor="SpringGreen" Command="{Binding BtnfINDCommand}" TextColor="Black" WidthRequest="150"/>
+                </HorizontalStackLayout>
+
+            </VerticalStackLayout>
+        </Border>
+
+    </Grid>
+
+
+</ContentPage>

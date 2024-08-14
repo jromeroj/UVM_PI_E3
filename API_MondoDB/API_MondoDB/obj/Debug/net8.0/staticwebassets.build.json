@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "qnRzZQjXghtpxszhWCc8LYzuF8hn9LPnULF1g7g0SgU=",
+  "Source": "API_MondoDB",
+  "BasePath": "_content/API_MondoDB",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

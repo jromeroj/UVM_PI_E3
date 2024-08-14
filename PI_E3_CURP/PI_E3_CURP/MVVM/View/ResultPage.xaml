@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PI_E3_CURP.MVVM.View.ResultPage"
+             Title="ResultPage">
+    <VerticalStackLayout>
+
+        <VerticalStackLayout HorizontalOptions="Center" VerticalOptions="Center" Spacing="10" Margin="0,150,0,0">
+
+            <Image Source="{Binding CResponse.sourceImage}" VerticalOptions="Center" HorizontalOptions="Center" HeightRequest="150"/>
+            <Label Text="{Binding CResponse.testDescrip}" TextColor="#000000" VerticalOptions="Center" HorizontalOptions="Center" Margin="5,0,5,0"/>
+        </VerticalStackLayout>
+
+        <ListView Grid.Row="1" ItemsSource="{Binding LstCURP}" SelectedItem="{Binding CURP}" Margin="15,25,15,0" SelectionMode="Single">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell>
+                        <VerticalStackLayout Spacing="10">
+
+                            
+                            <Label TextColor="{StaticResource HBBlack}" HorizontalOptions="Center" VerticalOptions="Center" FontAttributes="None" FontSize="12">
+                                <Label.Text>
+                                    <MultiBinding StringFormat="{} {0} {1} {2}">
+                                        <Binding Path="nombres" />
+                                        <Binding Path="app" />
+                                        <Binding Path="apm" />
+                                    </MultiBinding>
+                                </Label.Text>
+                            </Label>
+                            <Label Text="{Binding curp}" TextColor="{StaticResource HBBlack}" HorizontalOptions="Center" VerticalOptions="Center" FontAttributes="Bold" FontSize="12"/>
+                        </VerticalStackLayout>
+
+
+
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+        <Button Text="{Binding CResponse.txtButon}" Command="{Binding BtnNextCommand}" BackgroundColor="{Binding CResponse.btnColor}" />
+    </VerticalStackLayout>
+</ContentPage>

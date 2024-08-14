@@ -1,0 +1,223 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\UVM\\Cuatrimestres\\09\\Soluci\u00F3n de programaci\u00F3n m\u00F3vil\\Actividades\\API_MondoDB\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{6687EDF1-E7F3-427A-BB96-0B47C102A313}|Kasai\\Kasai.csproj|d:\\uvm\\cuatrimestres\\09\\soluci\u00F3n de programaci\u00F3n m\u00F3vil\\actividades\\api_mondodb\\kasai\\firestore\\managefirestore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6687EDF1-E7F3-427A-BB96-0B47C102A313}|Kasai\\Kasai.csproj|solutionrelative:kasai\\firestore\\managefirestore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73A83CF5-486A-4674-9DC1-3B06C23DB0BE}|KasaiTest\\KasaiTest.csproj|d:\\uvm\\cuatrimestres\\09\\soluci\u00F3n de programaci\u00F3n m\u00F3vil\\actividades\\api_mondodb\\kasaitest\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{73A83CF5-486A-4674-9DC1-3B06C23DB0BE}|KasaiTest\\KasaiTest.csproj|solutionrelative:kasaitest\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F8AFF4C-7C5D-4889-866D-5B0DD514E7C4}|API_MondoDB\\API_MondoDB.csproj|d:\\uvm\\cuatrimestres\\09\\soluci\u00F3n de programaci\u00F3n m\u00F3vil\\actividades\\api_mondodb\\api_mondodb\\cnnmongo\\mongoconeccion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6F8AFF4C-7C5D-4889-866D-5B0DD514E7C4}|API_MondoDB\\API_MondoDB.csproj|solutionrelative:api_mondodb\\cnnmongo\\mongoconeccion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F8AFF4C-7C5D-4889-866D-5B0DD514E7C4}|API_MondoDB\\API_MondoDB.csproj|d:\\uvm\\cuatrimestres\\09\\soluci\u00F3n de programaci\u00F3n m\u00F3vil\\actividades\\api_mondodb\\api_mondodb\\controllers\\curpcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6F8AFF4C-7C5D-4889-866D-5B0DD514E7C4}|API_MondoDB\\API_MondoDB.csproj|solutionrelative:api_mondodb\\controllers\\curpcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F8AFF4C-7C5D-4889-866D-5B0DD514E7C4}|API_MondoDB\\API_MondoDB.csproj|d:\\uvm\\cuatrimestres\\09\\soluci\u00F3n de programaci\u00F3n m\u00F3vil\\actividades\\api_mondodb\\api_mondodb\\controllers\\productoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6F8AFF4C-7C5D-4889-866D-5B0DD514E7C4}|API_MondoDB\\API_MondoDB.csproj|solutionrelative:api_mondodb\\controllers\\productoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6687EDF1-E7F3-427A-BB96-0B47C102A313}|Kasai\\Kasai.csproj|d:\\uvm\\cuatrimestres\\09\\soluci\u00F3n de programaci\u00F3n m\u00F3vil\\actividades\\api_mondodb\\kasai\\storage\\storagemanage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6687EDF1-E7F3-427A-BB96-0B47C102A313}|Kasai\\Kasai.csproj|solutionrelative:kasai\\storage\\storagemanage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6687EDF1-E7F3-427A-BB96-0B47C102A313}|Kasai\\Kasai.csproj|d:\\uvm\\cuatrimestres\\09\\soluci\u00F3n de programaci\u00F3n m\u00F3vil\\actividades\\api_mondodb\\kasai\\storage\\storageparams.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6687EDF1-E7F3-427A-BB96-0B47C102A313}|Kasai\\Kasai.csproj|solutionrelative:kasai\\storage\\storageparams.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6687EDF1-E7F3-427A-BB96-0B47C102A313}|Kasai\\Kasai.csproj|d:\\uvm\\cuatrimestres\\09\\soluci\u00F3n de programaci\u00F3n m\u00F3vil\\actividades\\api_mondodb\\kasai\\firebaseconnection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6687EDF1-E7F3-427A-BB96-0B47C102A313}|Kasai\\Kasai.csproj|solutionrelative:kasai\\firebaseconnection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6687EDF1-E7F3-427A-BB96-0B47C102A313}|Kasai\\Kasai.csproj|d:\\uvm\\cuatrimestres\\09\\soluci\u00F3n de programaci\u00F3n m\u00F3vil\\actividades\\api_mondodb\\kasai\\kasai.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{6687EDF1-E7F3-427A-BB96-0B47C102A313}|Kasai\\Kasai.csproj|solutionrelative:kasai\\kasai.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F8AFF4C-7C5D-4889-866D-5B0DD514E7C4}|API_MondoDB\\API_MondoDB.csproj|d:\\uvm\\cuatrimestres\\09\\soluci\u00F3n de programaci\u00F3n m\u00F3vil\\actividades\\api_mondodb\\api_mondodb\\models\\curpmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6F8AFF4C-7C5D-4889-866D-5B0DD514E7C4}|API_MondoDB\\API_MondoDB.csproj|solutionrelative:api_mondodb\\models\\curpmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F8AFF4C-7C5D-4889-866D-5B0DD514E7C4}|API_MondoDB\\API_MondoDB.csproj|d:\\uvm\\cuatrimestres\\09\\soluci\u00F3n de programaci\u00F3n m\u00F3vil\\actividades\\api_mondodb\\api_mondodb\\models\\productosmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6F8AFF4C-7C5D-4889-866D-5B0DD514E7C4}|API_MondoDB\\API_MondoDB.csproj|solutionrelative:api_mondodb\\models\\productosmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8FFDC924-6929-4551-8760-1B24663D2746}|Mukankei\\Mukankei.csproj|d:\\uvm\\cuatrimestres\\09\\soluci\u00F3n de programaci\u00F3n m\u00F3vil\\actividades\\api_mondodb\\mukankei\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8FFDC924-6929-4551-8760-1B24663D2746}|Mukankei\\Mukankei.csproj|solutionrelative:mukankei\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UnitTest1.cs",
+              "DocumentMoniker": "D:\\UVM\\Cuatrimestres\\09\\Soluci\u00F3n de programaci\u00F3n m\u00F3vil\\Actividades\\API_MondoDB\\KasaiTest\\UnitTest1.cs",
+              "RelativeDocumentMoniker": "KasaiTest\\UnitTest1.cs",
+              "ToolTip": "D:\\UVM\\Cuatrimestres\\09\\Soluci\u00F3n de programaci\u00F3n m\u00F3vil\\Actividades\\API_MondoDB\\KasaiTest\\UnitTest1.cs",
+              "RelativeToolTip": "KasaiTest\\UnitTest1.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAgwB4AAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-14T18:28:44.827Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "StorageParams.cs",
+              "DocumentMoniker": "D:\\UVM\\Cuatrimestres\\09\\Soluci\u00F3n de programaci\u00F3n m\u00F3vil\\Actividades\\API_MondoDB\\Kasai\\Storage\\StorageParams.cs",
+              "RelativeDocumentMoniker": "Kasai\\Storage\\StorageParams.cs",
+              "ToolTip": "D:\\UVM\\Cuatrimestres\\09\\Soluci\u00F3n de programaci\u00F3n m\u00F3vil\\Actividades\\API_MondoDB\\Kasai\\Storage\\StorageParams.cs",
+              "RelativeToolTip": "Kasai\\Storage\\StorageParams.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-13T20:48:15.212Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "StorageManage.cs",
+              "DocumentMoniker": "D:\\UVM\\Cuatrimestres\\09\\Soluci\u00F3n de programaci\u00F3n m\u00F3vil\\Actividades\\API_MondoDB\\Kasai\\Storage\\StorageManage.cs",
+              "RelativeDocumentMoniker": "Kasai\\Storage\\StorageManage.cs",
+              "ToolTip": "D:\\UVM\\Cuatrimestres\\09\\Soluci\u00F3n de programaci\u00F3n m\u00F3vil\\Actividades\\API_MondoDB\\Kasai\\Storage\\StorageManage.cs",
+              "RelativeToolTip": "Kasai\\Storage\\StorageManage.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-13T20:20:40.47Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Kasai.csproj",
+              "DocumentMoniker": "D:\\UVM\\Cuatrimestres\\09\\Soluci\u00F3n de programaci\u00F3n m\u00F3vil\\Actividades\\API_MondoDB\\Kasai\\Kasai.csproj",
+              "RelativeDocumentMoniker": "Kasai\\Kasai.csproj",
+              "ToolTip": "D:\\UVM\\Cuatrimestres\\09\\Soluci\u00F3n de programaci\u00F3n m\u00F3vil\\Actividades\\API_MondoDB\\Kasai\\Kasai.csproj",
+              "RelativeToolTip": "Kasai\\Kasai.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-08-13T20:07:30.811Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ManageFirestore.cs",
+              "DocumentMoniker": "D:\\UVM\\Cuatrimestres\\09\\Soluci\u00F3n de programaci\u00F3n m\u00F3vil\\Actividades\\API_MondoDB\\Kasai\\Firestore\\ManageFirestore.cs",
+              "RelativeDocumentMoniker": "Kasai\\Firestore\\ManageFirestore.cs",
+              "ToolTip": "D:\\UVM\\Cuatrimestres\\09\\Soluci\u00F3n de programaci\u00F3n m\u00F3vil\\Actividades\\API_MondoDB\\Kasai\\Firestore\\ManageFirestore.cs",
+              "RelativeToolTip": "Kasai\\Firestore\\ManageFirestore.cs",
+              "ViewState": "AQIAAB0AAAAAAAAAAAAqwEkAAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-12T23:34:00.91Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "FirebaseConnection.cs",
+              "DocumentMoniker": "D:\\UVM\\Cuatrimestres\\09\\Soluci\u00F3n de programaci\u00F3n m\u00F3vil\\Actividades\\API_MondoDB\\Kasai\\FirebaseConnection.cs",
+              "RelativeDocumentMoniker": "Kasai\\FirebaseConnection.cs",
+              "ToolTip": "D:\\UVM\\Cuatrimestres\\09\\Soluci\u00F3n de programaci\u00F3n m\u00F3vil\\Actividades\\API_MondoDB\\Kasai\\FirebaseConnection.cs",
+              "RelativeToolTip": "Kasai\\FirebaseConnection.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABwAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-12T23:18:33.93Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CURPController.cs",
+              "DocumentMoniker": "D:\\UVM\\Cuatrimestres\\09\\Soluci\u00F3n de programaci\u00F3n m\u00F3vil\\Actividades\\API_MondoDB\\API_MondoDB\\Controllers\\CURPController.cs",
+              "RelativeDocumentMoniker": "API_MondoDB\\Controllers\\CURPController.cs",
+              "ToolTip": "D:\\UVM\\Cuatrimestres\\09\\Soluci\u00F3n de programaci\u00F3n m\u00F3vil\\Actividades\\API_MondoDB\\API_MondoDB\\Controllers\\CURPController.cs",
+              "RelativeToolTip": "API_MondoDB\\Controllers\\CURPController.cs",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAqwCcAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-12T19:10:12.303Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "CURPModel.cs",
+              "DocumentMoniker": "D:\\UVM\\Cuatrimestres\\09\\Soluci\u00F3n de programaci\u00F3n m\u00F3vil\\Actividades\\API_MondoDB\\API_MondoDB\\Models\\CURPModel.cs",
+              "RelativeDocumentMoniker": "API_MondoDB\\Models\\CURPModel.cs",
+              "ToolTip": "D:\\UVM\\Cuatrimestres\\09\\Soluci\u00F3n de programaci\u00F3n m\u00F3vil\\Actividades\\API_MondoDB\\API_MondoDB\\Models\\CURPModel.cs",
+              "RelativeToolTip": "API_MondoDB\\Models\\CURPModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwBkAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-12T17:08:25.926Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "D:\\UVM\\Cuatrimestres\\09\\Soluci\u00F3n de programaci\u00F3n m\u00F3vil\\Actividades\\API_MondoDB\\Mukankei\\Class1.cs",
+              "RelativeDocumentMoniker": "Mukankei\\Class1.cs",
+              "ToolTip": "D:\\UVM\\Cuatrimestres\\09\\Soluci\u00F3n de programaci\u00F3n m\u00F3vil\\Actividades\\API_MondoDB\\Mukankei\\Class1.cs",
+              "RelativeToolTip": "Mukankei\\Class1.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-01T06:28:46.734Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ProductosController.cs",
+              "DocumentMoniker": "D:\\UVM\\Cuatrimestres\\09\\Soluci\u00F3n de programaci\u00F3n m\u00F3vil\\Actividades\\API_MondoDB\\API_MondoDB\\Controllers\\ProductosController.cs",
+              "RelativeDocumentMoniker": "API_MondoDB\\Controllers\\ProductosController.cs",
+              "ToolTip": "D:\\UVM\\Cuatrimestres\\09\\Soluci\u00F3n de programaci\u00F3n m\u00F3vil\\Actividades\\API_MondoDB\\API_MondoDB\\Controllers\\ProductosController.cs",
+              "RelativeToolTip": "API_MondoDB\\Controllers\\ProductosController.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAB0AAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-01T06:18:24.85Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MongoConeccion.cs",
+              "DocumentMoniker": "D:\\UVM\\Cuatrimestres\\09\\Soluci\u00F3n de programaci\u00F3n m\u00F3vil\\Actividades\\API_MondoDB\\API_MondoDB\\CNNMongo\\MongoConeccion.cs",
+              "RelativeDocumentMoniker": "API_MondoDB\\CNNMongo\\MongoConeccion.cs",
+              "ToolTip": "D:\\UVM\\Cuatrimestres\\09\\Soluci\u00F3n de programaci\u00F3n m\u00F3vil\\Actividades\\API_MondoDB\\API_MondoDB\\CNNMongo\\MongoConeccion.cs",
+              "RelativeToolTip": "API_MondoDB\\CNNMongo\\MongoConeccion.cs",
+              "ViewState": "AQIAABsAAAAAAAAAAAAowCAAAABOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-01T06:02:13.52Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ProductosModel.cs",
+              "DocumentMoniker": "D:\\UVM\\Cuatrimestres\\09\\Soluci\u00F3n de programaci\u00F3n m\u00F3vil\\Actividades\\API_MondoDB\\API_MondoDB\\Models\\ProductosModel.cs",
+              "RelativeDocumentMoniker": "API_MondoDB\\Models\\ProductosModel.cs",
+              "ToolTip": "D:\\UVM\\Cuatrimestres\\09\\Soluci\u00F3n de programaci\u00F3n m\u00F3vil\\Actividades\\API_MondoDB\\API_MondoDB\\Models\\ProductosModel.cs",
+              "RelativeToolTip": "API_MondoDB\\Models\\ProductosModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-01T04:39:21.493Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

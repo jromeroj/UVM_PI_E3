@@ -1,0 +1,6 @@
+@API_MondoDB_HostAddress = http://localhost:5107
+
+GET {{API_MondoDB_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

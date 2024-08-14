@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Shell
+    x:Class="PI_E3_CURP.AppShell"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:local="clr-namespace:PI_E3_CURP"
+    xmlns:curp="clr-namespace:PI_E3_CURP.MVVM.View"
+    Shell.FlyoutBehavior="Disabled"
+    Shell.NavBarIsVisible="False"
+    Title="PI_E3_CURP">
+
+    <!--<ShellContent
+        Title="Home"
+        ContentTemplate="{DataTemplate local:MainPage}"
+        Route="MainPage" />-->
+
+    <FlyoutItem Route="Inicio" x:Name="MyLoginPage">
+        <ShellContent ContentTemplate="{DataTemplate curp:SearchPage}"/>
+    </FlyoutItem>
+
+    <ShellContent
+Title="Home"
+ContentTemplate="{DataTemplate curp:ResultPage}"
+Route="ResultFindPage" />
+    <ShellContent
+Title="Home"
+ContentTemplate="{DataTemplate curp:FilePage}"
+Route="FCurpPage" />
+
+</Shell>
